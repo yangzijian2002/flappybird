@@ -7,12 +7,12 @@ export class Sprite{
     img=null, // 图片对象
     srcx=0, // 初始x坐标
     srcy=0, // 初始y坐标
-    srcw=0, // 宽度
-    srch=0, // 高度
-    x=0, // 画布上的初始x坐标
-    y=0, // 画布上的初始y坐标
-    w=0, // 画布的宽
-    h=0 // 画布的高
+    srcw=0, // 图片宽度
+    srch=0, // 图片高度
+    x=0, // 图片在画布上的初始x坐标
+    y=0, // 图片在画布上的初始y坐标
+    w=0, // 图片在画布上的宽度
+    h=0 // 图片在画布上的高度
   ){
     // 获取变量池中的ctx对象
     this.ctx = DataStore.getInstance().ctx;
